@@ -5,9 +5,9 @@
     tools:context="com.moon.gossipnews.fragment.HotFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rlv"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="1" />
+        android:layout_height="match_parent"/>
 
 </FrameLayout>
