@@ -5,9 +5,18 @@
     tools:context="com.moon.gossipnews.fragment.HotFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/rlv"
+    <in.srain.cube.views.ptr.PtrClassicFrameLayout
+        android:id="@+id/ptrFl"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rlv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </in.srain.cube.views.ptr.PtrClassicFrameLayout>
+
+
 
 </FrameLayout>
