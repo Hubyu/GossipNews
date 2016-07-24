@@ -16,5 +16,6 @@ public class HotBean {
         public String title;
         public String agreementCount;
         public String readCount;
+        public String id;
     }
 }

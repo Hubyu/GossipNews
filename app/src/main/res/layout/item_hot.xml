@@ -19,10 +19,12 @@
                 android:id="@+id/tv_hot_title"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_margin="8dp"
                 android:textColor="#000"
                 android:textSize="17sp"
                 android:layout_below="@id/iv_hot"/>
             <TextView
+                android:layout_margin="8dp"
                 android:id="@+id/tv_hot_desc"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -36,11 +38,13 @@
                 android:layout_height="match_parent">
                 <TextView
                     android:id="@+id/tv_readcont"
+                    android:layout_margin="8dp"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:layout_gravity="center_horizontal"/>
                 <TextView
+                    android:layout_margin="8dp"
                     android:id="@+id/tv_agreecount"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
