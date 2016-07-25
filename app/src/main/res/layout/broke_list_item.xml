@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/iv_min_broke"
+        android:layout_width="70dp"
+        android:layout_height="70dp" />
+
+    <TextView
+        android:id="@+id/tv_broke_title"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:singleLine="true"
+        android:layout_alignTop="@+id/iv_min_broke"
+        android:layout_toRightOf="@id/iv_min_broke" />
+
+    <ImageView
+        android:id="@+id/iv_broke_look"
+        android:layout_width="20dp"
+        android:layout_height="15dp"
+        android:layout_alignBottom="@id/iv_min_broke"
+        android:layout_margin="5dp"
+        android:layout_toRightOf="@id/iv_min_broke"
+        android:src="@mipmap/ic_collect" />
+
+    <TextView
+        android:id="@+id/tv_broke_look"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignTop="@+id/iv_broke_look"
+        android:layout_margin="2dp"
+        android:layout_toRightOf="@+id/iv_broke_look" />
+
+    <TextView
+        android:id="@+id/tv_broke_comment"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignBottom="@+id/iv_broke_look"
+        android:layout_alignParentRight="true"
+        android:layout_margin="2dp" />
+
+    <ImageView
+        android:id="@+id/iv_broke_comment"
+        android:layout_width="20dp"
+        android:layout_height="15dp"
+        android:layout_alignBottom="@id/tv_broke_comment"
+        android:layout_margin="5dp"
+        android:layout_toLeftOf="@id/tv_broke_comment"
+        android:src="@mipmap/ic_comment" />
+
+</RelativeLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp"
+    android:background="#FFF"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+        <ImageView
+            android:id="@+id/iv_bamei_avater"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_margin="5dp" />
+
+        <TextView
+            android:id="@+id/tv_bamei_username"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_margin="5dp"
+            android:layout_toRightOf="@+id/iv_bamei_avater"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/tv_bamei_title"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@+id/iv_bamei_avater"
+            android:layout_margin="5dp"
+            android:textColor="#000" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_margin="3dp"
+        android:background="#C0C0C0" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_margin="5dp"
+        android:text="八妹答"
+        android:textColor="#000"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tv_bamei_answer"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_margin="5dp"
+        android:maxLines="3" />
+
+
+</LinearLayout>
