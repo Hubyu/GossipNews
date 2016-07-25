@@ -5,4 +5,6 @@ package com.moon.gossipnews.contant;
  */
 public class UrlStrings {
     public static final String URL_HOT = "http://www.jinrongbaguanv.com/jinba/index_articles/1";
+    public static final String URL_CONTENT = "http://www.jinrongbaguanv.com/jinba/article/";
+//    public static final String URL_CONTENT = "http://www.jinrongbaguanv.com/jinba/article/s%";
 }
