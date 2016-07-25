@@ -3,9 +3,9 @@ package com.moon.gossipnews.bean;
 import java.util.List;
 
 /**
- * Created by 王祯 on 2016/7/20.
+ * Created by 王祯 on 2016/7/21.
  */
-public class CategoryBean {
+public class SecondaryBean {
     public BodyBean body;
     public class BodyBean{
         public List<DataBean> datas;
@@ -22,8 +22,5 @@ public class CategoryBean {
     public class TopicVoBean{
         public  String title;
         public String image;
-         public String id;
     }
-
-
 }
