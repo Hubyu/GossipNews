@@ -19,6 +19,7 @@ public class BameiTopView extends LinearLayout {
     public BameiTopView(Context context, AttributeSet attrs) {
         this(context, attrs,0);
 
+
     }
 
     public BameiTopView(Context context, AttributeSet attrs, int defStyleAttr) {
