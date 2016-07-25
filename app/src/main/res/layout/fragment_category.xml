@@ -5,9 +5,12 @@
     tools:context="com.moon.gossipnews.fragment.CategoryFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/rv_category"
+    <ListView
+        android:id="@+id/lv_category"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"></android.support.v7.widget.RecyclerView>
+        android:layout_height="match_parent">
+
+    </ListView>
+
 
 </FrameLayout>
