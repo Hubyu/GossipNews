@@ -1,0 +1,22 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.moon.gossipnews.fragment.HotFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <in.srain.cube.views.ptr.PtrClassicFrameLayout
+        android:id="@+id/ptrFl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:id="@+id/lv_hot"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </in.srain.cube.views.ptr.PtrClassicFrameLayout>
+
+
+
+</FrameLayout>
