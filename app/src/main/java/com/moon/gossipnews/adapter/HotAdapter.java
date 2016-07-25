@@ -21,6 +21,7 @@ import java.util.List;
  * Created by Administrator on 2016/7/20.
  */
 public class HotAdapter extends BaseAdapter{
+
     private Context mContext;
     private List<HotBean.DataBean> mData;
     private DisplayImageOptions mOption;
